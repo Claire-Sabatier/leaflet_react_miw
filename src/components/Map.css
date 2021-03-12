@@ -1,0 +1,13 @@
+.map{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+.input{
+    margin: auto;
+    margin-top: 5%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+

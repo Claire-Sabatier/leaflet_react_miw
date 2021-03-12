@@ -1,0 +1,15 @@
+form{
+    border: 2px #f894A4 solid;
+    border-radius: 33px;
+    padding: 25px;
+}
+
+.submit{
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 33px;
+    background-color: #70b2d9;
+    background-image: linear-gradient(315deg, #70b2d9 0%, #39e5b6 74%);
+    color: white;
+}

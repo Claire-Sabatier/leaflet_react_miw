@@ -1,0 +1,17 @@
+h1{
+    color: #96c8fb ;
+    margin-left: 5%;
+}
+
+ul{
+    margin-left: 5%;
+}
+button{
+    margin-left: 1%;
+    border-radius: 33px;
+    padding: 5px;
+    background-color: #42378f;
+    background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+    color: white;
+    border-color: white;
+}

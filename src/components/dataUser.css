@@ -1,0 +1,15 @@
+.utilisateur{
+    width: 30%;
+    margin: auto;
+    border-radius: 33px;
+    text-align: center;
+    background-color: #b1ade2;
+    background-image: linear-gradient(315deg, #b1ade2 0%, #7ddff8 74%);
+}
+h2{
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+p{
+    padding-bottom: 20px;
+}

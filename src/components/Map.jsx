@@ -33,7 +33,7 @@ const LocMarker = () => {
             const {lat, lng} = e.latlng 
             dispatch({ marker: [lat, lng], type: 'markerClick'})
 
-            if('vibrate' in navigator) navigator.vibrate(200);
+            if('vibrate' in window.navigator) window.navigator.vibrate(200);
         }
     })
     return <></>

@@ -13,8 +13,8 @@ const GeoLoc = () => {
     const map = useMap()
 
     useEffect(() => {
-        if('geolocalisation' in navigator){
-            navigator.geolocation.getCurrentPosition((pos) => {
+        if('geolocalisation' in window.navigator){
+            window.navigator.geolocation.getCurrentPosition((pos) => {
                 const {latitude, longitude} = pos.coords
                 map.setView([latitude, longitude])
             })
